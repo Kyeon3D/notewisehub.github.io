@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex-wrap: 2%;
+  padding: 15px 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 290px;
+  background-color: white;
+}
+
+.left h2 {
+  padding-left: 8px;
+  color: black;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+  background-color: white;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+#logoutBtn {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  background-color: gray;
+  border-top: 1px solid #ddd;
+}
+
+#logoutBtn:hover {
+  background-color: #555555; 
+}
+
+#logoutBtn {
+  background-color: gray; /* Change the background color to blue */
+}
+
+span {
+  background-color: cornflowerblue;
+  color: black;
+  font-size: 30px;
+  font-family: Verdana;
+}
+
