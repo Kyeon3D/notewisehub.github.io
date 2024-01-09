@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NoteWiseHub</title>
+    <link rel="stylesheet"href="main-style.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">NoteWiseHub</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="developers.html">DEVELOPERS</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="content">
+            <p class="par">Our website is here to help students like you with your schoolwork. Whether you're in high school or<br> college, we've got information that makes it easier to take good notes, cite your sources correctly, and<br> avoid plagiarism. If you're working on a research paper or just want to improve your study skills, our site<br> is made for you. We break down the tricky parts of writing and researching into simple, easy-to-understand<br> tips. Our goal is to support you in doing your best in school. So, if you're a student looking for help with note-<br>taking, citing sources, or understanding plagiarism, you're in the right place. Explore our site to find useful<br> information that will make your academic journey smoother.</p>
+             
+            <div class="form">
+                <h2>Login Here</h2>
+                <br><br><br>
+                <form id="login-form" onsubmit="validateForm(event)">                
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                <button class="btnn">Login</button>                
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="login.js"></script>
+    
+</body>
+</html>
